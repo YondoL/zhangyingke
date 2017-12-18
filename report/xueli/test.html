@@ -9,24 +9,24 @@
     <title>PDF.js viewer</title>
 
 
-    <link rel="stylesheet" href="viewer.css">
+    <link rel="stylesheet" href="./viewer.css">
 
-    <script src="compatibility.js"></script>
+    <script src="./compatibility.js"></script>
 
 
 
     <!-- This snippet is used in production (included from viewer.html) -->
     <link rel="resource" type="application/l10n" href="locale/locale.properties">
-    <script src="l10n.js"></script>
-    <script src="../build/pdf.js"></script>
+    <script src="./l10n.js"></script>
+    <script src="./pdf.js"></script>
 
     <script type="text/javascript">
         var arr = location.href.split("?")[1];
         var url = arr.split("=")[1];
-        var confir_url = url || "a.pdf";
+        var confir_url = url || "zhangyingke20150610906451.pdf";
     </script>
-    <script src="debugger.js"></script>
-    <script src="viewer.js"></script>
+    <script src="./debugger.js"></script>
+    <script src="./viewer.js"></script>
 
   </head>
 
